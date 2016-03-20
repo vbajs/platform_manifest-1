@@ -17,6 +17,10 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
+  
+  <remote  name="phoenix"
+           fetch="https://github.com/Phoenix-Rom-CM-Base"
+           revision="mm6.0" />
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
