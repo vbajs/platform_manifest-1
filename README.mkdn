@@ -14,7 +14,7 @@ which hardware base your phone is working.
 To initialize your local repository using the Phoenix-Rom trees, use this command:
 
 
-	repo init -u git://github.com/Phoenix-Rom-CM-Base/manifest.git -b mm6.0
+	repo init -u git://github.com/Phoenix-Rom/manifest.git -b mm6.0
 
 
 
