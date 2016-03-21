@@ -19,7 +19,7 @@
            sync-j="4" />
   
   <remote  name="phoenix"
-           fetch="https://github.com/Phoenix-Rom-CM-Base"
+           fetch="https://github.com/Phoenix-Rom"
            revision="mm6.0" />
 
 <!-- BEGIN CYANOGENMOD -->
@@ -543,7 +543,21 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
+  <project path="system/gateskeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
+
+<!-- START PHOENIX DEVICES -->
+  <project path="device/lge/hammerhead" name="Phoenix-Devices/android_device_ige_hammerhead" remote="github" revision="mm6.0" />
+  <project path="device/huawei/angler" name="Phoenix-Devices/device_huawei_angler" remote="github" revision="mm6.0" />
+  <project path="device/lge/bullhead" name="Phoenix-Devices/device_lge_bullhead" remote="github" revision="mm6.0" />
+  <project path="device/motorola/shamu" name="Phoenix-Devices/device_motorola_shamu" remote="github" revision="mm6.0" />
+  <project path="device/oneplus/bacon" name="Phoenix-Devices/device_oneplus_bacon" remote="github" revision="mm6.0" />
+  <project path="device/oppo/common" name="Phoenix-Devices/device_oppo_common" remote="github" revision="mm6.0" />
+  <project path="device/samsung/jf-common" name="Phoenix-Devices/device_samsung_jf-common" remote="github" revision="mm6.0" />
+  <project path="device/samsung/jfltexx" name="Phoenix-Devices/device_samsung_jfltexx" remote="github" revision="mm6.0" />
+  <project path="device/samsung/qcom-common" name="vbajs/device_samsung_qcom-common" remote="github" revision="mm6.0" />
+  <project path="hardware/samsung" name="vbajs/hardware_samsung" remote="github" revision="mm6.0" />
+  <project path="kernel/samsung/jf" name="Radium-Devices/Radium_jflte" remote="github" revision="6.0" />
+<!-- END PHOENIX DEVICES -->
 
 </manifest>
