@@ -17,11 +17,6 @@ To initialize your local repository using the Phoenix-Rom trees, use this comman
 	repo init -u git://github.com/Phoenix-Rom/manifest.git -b mm6.0
 	
 
-For Devices that do not work with Project Desire please repo init the below command
-
-
-repo init -u git://github.com/Phoenix-Rom/manifest.git -b mm6.0-nopd
-
 
 Then sync up with this command:
 
